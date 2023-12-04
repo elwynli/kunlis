@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>学习知识笔记</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="EverEdit" />
+    <meta name="author" content="KunLi" />
+    <meta name="keywords" content="学习知识笔记" />
+    <meta name="description" content="学习知识笔记是一个草稿本" />
+    <link rel="stylesheet" href="static/chota.min.css">
+    <link rel="stylesheet" href="static/k.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon/site.webmanifest">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nav-left"><a class="brand" href="/">学习知识笔记</a>
+                <div class="tabs">
+                    <a href="javascript:;" cat="0" class="active">所有</a>
+                    <a href="javascript:;" cat="1">计算机</a>
+                    <a href="javascript:;" cat="99">其它</a>
+                </div>
+            </div>
+            <div class="nav-right">
+                <a class="button clear" id="btn_dark_light">Light</a>
+            </div>
+        </nav>
+    </header>
+    <div class="row" id="ctn_article_list">
+        <div class="col"></div>
+        <div class="col-10">
+            <article cat="1" class="card">
+                <header>
+                    <h3><a href="coleslaw">Coleslaw</a></h3>
+                    <time>2023-04-17</time>
+                </header>
+                <p>满足你的编码和味蕾。</p>
+            </article>
+        </div>
+        <div class="col"></div>
+    </div>
+    <div class="row dn" id="ctn_no_article">
+        <div class="col"></div>
+        <div class="col-10 text-center card">
+            文未曾有。
+        </div>
+        <div class="col"></div>
+    </div>
+    <footer class="text-center">
+        <hr>
+        <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备19090023号-2</a>
+        <br>
+        <p>© 2014 - 2023 AlternativeTo.cn. All Rights Reserved.<p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+    <!--
+        $(function() {
+            $('.nav .tabs a').click(function (e) {
+                $('.nav a').removeClass('active');
+                $(this).addClass('active');
+                $('article').parent().hide();
+                if ($(this).attr('cat') == '0') {
+                    $('article').parent().show();
+                } else {
+                    $('article[cat="' + $(this).attr('cat') + '"]').parent().show();
+                }
+                if ($('#ctn_article_list article :visible').length == 0) {
+                    $('#ctn_no_article').removeClass('dn');
+                } else {
+                    $('#ctn_no_article').addClass('dn');
+                }
+            });
+            
+            $('#btn_dark_light').click(function(){
+                let el = $('.nav .tabs a.active');
+                $(this).text('Light' == $(this).text() ? 'Dark' : 'Light');
+                document.body.classList.toggle('dark');
+                el.click();
+            });
+            
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.body.classList.add('dark');
+            } else {
+                document.body.classList.remove('dark');
+            }
+        });
+    //-->
+    </script>
+</body>
+</html>
