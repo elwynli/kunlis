@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> <channel> <title>空理寺</title> <link></link> <atom:link href="/rss.xml" rel="self" type="application/rss+xml" /> <language>en-us</language> <pubDate>Thu, 23 Mar 2023 21:37:15 +0800</pubDate> <item> <title>Artificial Intelligence and ChatGPT</title> <link>/posts/Artificial-Intelligence-and-ChatGPT.html</link> <pubDate>2023-03-21</pubDate> <author>Kun Li</author> <guid isPermaLink="true">/posts/Artificial-Intelligence-and-ChatGPT.html</guid> <category><![CDATA[ AI ]]></category><category><![CDATA[ ChatGPT ]]></category> <description><![CDATA[ <p>从智能家居到医疗诊断，从优化交通到替代人类工作，人工智能正在深刻改变着我们的生活和社会，同时也带来了一些挑战和风险。ChatGPT是一款基于GPT-3.5架构的大型语言模型，它可以模仿人类的语言能力，为人们提供自然、流畅的对话体验。点击阅读更多，探索这个最先进的令人着迷的自然语言处理技术。</p>
+
+<!--more-->
+
+<h2>人工智能</h2>
+
+<p>人工智能（Artificial Intelligence, AI）是一种通过计算机技术实现智能行为的技术。随着人们对大数据、云计算、深度学习等技术的深入研究和应用，人工智能正迅速地改变着我们的生活、工作和社会。</p>
+
+<p>首先，人工智能为我们的生活带来了前所未有的便利。无论是智能家居、智能音箱还是智能手表，人工智能技术已经渗透到了我们的日常生活中。它可以通过语音识别、图像识别等技术，让我们的生活更加智能化、高效化。</p>
+
+<p>其次，人工智能正在推动着社会进步。在医疗、交通、农业等领域，人工智能正在发挥着越来越重要的作用。例如，在医疗领域，人工智能可以通过对海量病例的分析，为医生提供更准确的诊断和治疗方案；在交通领域，人工智能可以通过智能交通控制系统，优化道路拥堵状况，提高交通效率。</p>
+
+<p>最后，人工智能也带来了一些挑战和风险。例如，人工智能可能会替代某些人类工作，导致失业率上升；人工智能也可能会被恶意利用，对人类造成伤害。</p>
+
+<p>总之，人工智能是一种充满活力和创新的技术。它正在改变着我们的生活和社会，为我们带来了便利和进步，同时也需要我们对其潜在的挑战和风险保持警惕。</p>
+
+<h2>ChatGPT</h2>
+
+<p>ChatGPT是一款令人兴奋的技术，由OpenAI开发的自然语言处理技术，能够通过大量的训练数据学习人类的语言习惯，从而进行智能的对话和语言处理。与其他人工智能技术不同的是，ChatGPT不需要特定编程，通过自然语言交互，实现更加自然、个性化的语言服务。</p>
+
+<p>除此之外，ChatGPT在个性化、多语言、多任务等方面也表现出色，可广泛应用于智能客服、智能助手、教育、医疗等领域。作为一款守正出奇的技术，ChatGPT将在人工智能领域继续发挥重要作用。</p>
+
+<p>ChatGPT的优势主要表现在以下三个方面：语言理解、生成和对话。它不仅可以对自然语言进行深入分析和理解，自动提取关键信息和意图，还可以根据给定的文本和语境，生成连贯、准确的自然语言文本，并能与人类进行智能对话，理解问题并给出准确答案或建议。</p>
+
+<p>作为一项颠覆性技术，ChatGPT不仅为人类带来了更智能、更高效的语言交互体验，也为我们提供了更多探索人工智能领域的机会。随着技术的不断进步和发展，我们有理由相信，ChatGPT将在未来实现更加令人惊叹的应用和突破。</p>
+ ]]></description> </item><item> <title>Build static weblog with coleslaw</title> <link>/posts/Build-static-weblog-with-coleslaw.html</link> <pubDate>2023-03-14</pubDate> <author>Kun Li</author> <guid isPermaLink="true">/posts/Build-static-weblog-with-coleslaw.html</guid> <category><![CDATA[ Coleslaw ]]></category> <description><![CDATA[ <p>有人说过，<strong>在这个世界上，使用静态博客写博客的人比写博客的人还要多。</strong>如果你是软件人，也会懂得这个笑话。在本文中，我将讨论如何使用 Coleslaw 构建静态博客。</p>
+
+<!--more-->
+
+<h3>静态博客</h3>
+
+<p>静态博客是与世界分享个人想法、观点和经验的一种流行的方式。它易于创建和维护，并可根据作者的风格和喜好进行自定义。这不，多少都有人用过 Jekyll，但在 Windows 上安装起 Ruby 来并不容易，尤其是在不科学的情况内，也有不少人使用 Hugo，因为它快，以及 Gatsby、Hexo、GitBook，甚至用过更小众的 mdBook、Pelican、Zola，但极少人会使用 Frog、Hakyll，以及 Coleslaw。</p>
+
+<h3>Coleslaw</h3>
+
+<p>Coleslaw 是用 Common Lisp 编写的静态网站生成器。它是一个轻量级和灵活的工具，可以轻松地创建简单或复杂的博客。使用 Coleslaw 构建静态博客，第一步是在计算机上安装它，可以按 Coleslaw 网站上的说明进行安装。</p>
+
+<p>安装 Coleslaw 后，可以通过在终端中运行<code>coleslaw init</code>命令来创建一个新的博客。</p>
+
+<p>下一步是自定义您的博客。Coleslaw 使用 Google 闭包模板生成博客的 HTML 页面，因此需要创建或修改模板以满足需求。Coleslaw 附带了两个默认模板，您可以将其用作起点，也可以从头开始创建自己的模板。</p>
+
+<p>要为您的博客创建新文章，可以运行<code>coleslaw post</code>命令。这将在“posts”目录中创建一个新的 Markdown 文件，您可以编辑该文件以撰写文章。您可以使用 Markdown 语法向文章中添加图像、链接和其他内容。</p>
+
+<p>当您准备好发布您的博客时，可以运行<code>coleslaw deploy</code>命令。这将为您的博客生成HTML页面，并将它们放置在<code>deploy</code>目录中。然后，您可以将这些文件上传到 Web 服务器或 GitHub 托管服务，以使你的博客在互联网上可用。</p>
+
+<p>总之，使用 Coleslaw 构建一个静态博客是一个简单的过程，只需要几个基本步骤。使用 Coleslaw，你可以创建一个个性化和专业的博客，可以轻松定制和更新。那么，为什么不尝试一下，今天就开始与世界分享你的想法吧！</p>
+
+<h3>参考</h3>
+
+<ul>
+<li><a href="https://github.com/coleslaw-org/coleslaw" >Coleslaw</a></li>
+<li><a href="https://github.com/coleslaw-org/coleslaw/blob/master/docs/hacking.md" >Coleslaw: A Hacker's Guide</a></li>
+<li><a href="https://blog.kingcons.io/tag/milosz.html" >Czeslaw Milosz</a></li>
+<li><a href="https://github.com/greghendershott/frog" >Frog</a></li>
+<li><a href="https://www.greghendershott.com/About.html" >Greg Hendershott</a></li>
+<li><a href="http://jekyllrb.com/" >Jekyll</a></li>
+<li><a href="https://jaspervdj.be/hakyll/" >Hakyll</a></li>
+</ul>
+ ]]></description> </item> </channel> </rss>

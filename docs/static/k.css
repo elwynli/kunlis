@@ -1,0 +1,21 @@
+body.dark {
+        --bg-color: #000;
+        --bg-secondary-color: #131316;
+        --font-color: #f5f5f5;
+        --color-grey: #ccc;
+        --color-darkGrey: #777;
+}
+:root {
+    --font-color: #333333;
+    --font-family-sans: sans-serif;
+    --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+}
+#ctn_article_list {
+    margin-top: 20px;   
+}
+.dn {
+    display: none;
+}
+.db {
+    display: block;
+}

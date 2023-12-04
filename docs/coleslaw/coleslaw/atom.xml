@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom"> <title>空理寺</title> <link href=""/> <link type="application/atom+xml" rel="self" href="/atom.xml"/> <updated>Wed, 22 Mar 2023 22:45:47 +0800</updated> <author> <name>Kun Li</name> </author> <entry> <link type="text/html" rel="alternate" href="/coleslaw/posts/Artificial-Intelligence-and-ChatGPT.html"/> <title>Artificial Intelligence and ChatGPT</title> <published>2023-03-21</published> <updated>2023-03-21</updated> <author> <name>Kun Li</name> <uri></uri> </author> <content type="html">&lt;p&gt;从智能家居到医疗诊断，从优化交通到替代人类工作，人工智能正在深刻改变着我们的生活和社会，同时也带来了一些挑战和风险。ChatGPT是一款基于GPT-3.5架构的大型语言模型，它可以模仿人类的语言能力，为人们提供自然、流畅的对话体验。点击阅读更多，探索这个最先进的令人着迷的自然语言处理技术。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2&gt;人工智能&lt;/h2&gt;
+
+&lt;p&gt;人工智能（Artificial Intelligence, AI）是一种通过计算机技术实现智能行为的技术。随着人们对大数据、云计算、深度学习等技术的深入研究和应用，人工智能正迅速地改变着我们的生活、工作和社会。&lt;/p&gt;
+
+&lt;p&gt;首先，人工智能为我们的生活带来了前所未有的便利。无论是智能家居、智能音箱还是智能手表，人工智能技术已经渗透到了我们的日常生活中。它可以通过语音识别、图像识别等技术，让我们的生活更加智能化、高效化。&lt;/p&gt;
+
+&lt;p&gt;其次，人工智能正在推动着社会进步。在医疗、交通、农业等领域，人工智能正在发挥着越来越重要的作用。例如，在医疗领域，人工智能可以通过对海量病例的分析，为医生提供更准确的诊断和治疗方案；在交通领域，人工智能可以通过智能交通控制系统，优化道路拥堵状况，提高交通效率。&lt;/p&gt;
+
+&lt;p&gt;最后，人工智能也带来了一些挑战和风险。例如，人工智能可能会替代某些人类工作，导致失业率上升；人工智能也可能会被恶意利用，对人类造成伤害。&lt;/p&gt;
+
+&lt;p&gt;总之，人工智能是一种充满活力和创新的技术。它正在改变着我们的生活和社会，为我们带来了便利和进步，同时也需要我们对其潜在的挑战和风险保持警惕。&lt;/p&gt;
+
+&lt;h2&gt;ChatGPT&lt;/h2&gt;
+
+&lt;p&gt;ChatGPT是一款令人兴奋的技术，由OpenAI开发的自然语言处理技术，能够通过大量的训练数据学习人类的语言习惯，从而进行智能的对话和语言处理。与其他人工智能技术不同的是，ChatGPT不需要特定编程，通过自然语言交互，实现更加自然、个性化的语言服务。&lt;/p&gt;
+
+&lt;p&gt;除此之外，ChatGPT在个性化、多语言、多任务等方面也表现出色，可广泛应用于智能客服、智能助手、教育、医疗等领域。作为一款守正出奇的技术，ChatGPT将在人工智能领域继续发挥重要作用。&lt;/p&gt;
+
+&lt;p&gt;ChatGPT的优势主要表现在以下三个方面：语言理解、生成和对话。它不仅可以对自然语言进行深入分析和理解，自动提取关键信息和意图，还可以根据给定的文本和语境，生成连贯、准确的自然语言文本，并能与人类进行智能对话，理解问题并给出准确答案或建议。&lt;/p&gt;
+
+&lt;p&gt;作为一项颠覆性技术，ChatGPT不仅为人类带来了更智能、更高效的语言交互体验，也为我们提供了更多探索人工智能领域的机会。随着技术的不断进步和发展，我们有理由相信，ChatGPT将在未来实现更加令人惊叹的应用和突破。&lt;/p&gt;
+</content> </entry><entry> <link type="text/html" rel="alternate" href="/coleslaw/posts/Build-static-weblog-with-coleslaw.html"/> <title>Build static weblog with coleslaw</title> <published>2023-03-14</published> <updated>2023-03-14</updated> <author> <name>Kun Li</name> <uri></uri> </author> <content type="html">&lt;p&gt;Static weblogs are a popular way to share personal thoughts, opinions, and experiences with the world. They are easy to create and maintain, and can be customized to suit the author&#039;s style and preferences. In this essay, I will discuss how to build a static weblog with Coleslaw.&lt;/p&gt;
+
+&lt;p&gt;Coleslaw is a static site generator that is written in Python. It is a lightweight and flexible tool that can be used to create simple or complex weblogs with ease. The first step in building a static weblog with Coleslaw is to install it on your computer. You can do this by following the instructions on the Coleslaw website.&lt;/p&gt;
+
+&lt;p&gt;Once you have installed Coleslaw, you can create a new weblog by running the command &amp;quot;coleslaw init&amp;quot; in your terminal. This will create a new directory for your weblog and populate it with some default files and directories.&lt;/p&gt;
+
+&lt;p&gt;The next step is to customize your weblog. Coleslaw uses templates to generate the HTML pages for your weblog, so you will need to create or modify a template to suit your needs. Coleslaw comes with a default template that you can use as a starting point, or you can create your own from scratch.&lt;/p&gt;
+
+&lt;p&gt;To create a new post for your weblog, you can run the command &amp;quot;coleslaw post&amp;quot;. This will create a new Markdown file in the &amp;quot;posts&amp;quot; directory, which you can edit to write your post. You can add images, links, and other content to your post using Markdown syntax.&lt;/p&gt;
+
+&lt;p&gt;When you are ready to publish your weblog, you can run the command &amp;quot;coleslaw build&amp;quot;. This will generate the HTML pages for your weblog and place them in the &amp;quot;output&amp;quot; directory. You can then upload these files to a web server or hosting service to make your weblog available on the internet.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, building a static weblog with Coleslaw is a straightforward process that requires only a few basic steps. With Coleslaw, you can create a personalized and professional-looking weblog that can be easily customized and updated. So why not give it a try and start sharing your thoughts with the world today!&lt;/p&gt;
+
+&lt;!--more--&gt;
+</content> </entry> </feed>
